@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Authors>Colin Chang</Authors>
+        <Copyright>https://ccstudio.com.cn</Copyright>
+        <PackageProjectUrl>https://github.com/colin-chang/AlibabaSmsHelper</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/colin-chang/AlibabaSmsHelper</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageTags>aliyun sms 短信 信息 短信服务 短信模板 签名</PackageTags>
+        <Description>Alibaba SmsHelper for .Net Core, which can send notifications or verification code and query the send details.</Description>
+        <PackageReleaseNotes>first version</PackageReleaseNotes>
+        <Version>1.0.0</Version>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageIcon>icon.png</PackageIcon>
+        <PackageIconUrl>https://raw.githubusercontent.com/colin-chang/AlibabaSmsHelper/main/icon.png</PackageIconUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <Title>AlibabaSmsHelper</Title>
+        <LangVersion>default</LangVersion>
+        <IsPackable>true</IsPackable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DocumentationFile>bin\Release\ColinChang.AlibabaSmsHelper.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Options.DataAnnotations" Version="5.0.0" />
+        
+        <PackageReference Include="AlibabaCloud.SDK.Dysmsapi20170525" Version="1.0.2" />
+        <PackageReference Include="AlibabaCloud.OpenApiClient" Version="0.0.10" />
+        <PackageReference Include="AlibabaCloud.TeaConsole" Version="0.1.0" />
+        <PackageReference Include="AlibabaCloud.DarabonbaEnv" Version="0.1.0" />
+        <PackageReference Include="AlibabaCloud.TeaUtil" Version="0.1.11" />
+        <PackageReference Include="AlibabaCloud.DarabonbaTime" Version="1.0.0" />
+        <PackageReference Include="Tea" Version="1.0.9" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\LICENSE">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+        <None Include="..\icon.png" Pack="true" PackagePath="" />
+    </ItemGroup>
+</Project>

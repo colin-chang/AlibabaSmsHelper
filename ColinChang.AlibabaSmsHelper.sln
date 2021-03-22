@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColinChang.AlibabaSmsHelper", "ColinChang.AlibabaSmsHelper\ColinChang.AlibabaSmsHelper.csproj", "{B302F6A3-55CC-45CE-B56D-5A77D4FAE610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColinChang.AlibabaSmsHelper.Test", "ColinChang.AlibabaSmsHelper.Test\ColinChang.AlibabaSmsHelper.Test.csproj", "{AD8E65D1-5014-4B2D-911F-D7F910FC5203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColinChang.AlibabaSmsHelper.HostedSample", "ColinChang.AlibabaSmsHelper.HostedSample\ColinChang.AlibabaSmsHelper.HostedSample.csproj", "{1CD4CD2E-A662-49B9-BB42-13ADEC86EAB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B302F6A3-55CC-45CE-B56D-5A77D4FAE610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B302F6A3-55CC-45CE-B56D-5A77D4FAE610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B302F6A3-55CC-45CE-B56D-5A77D4FAE610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B302F6A3-55CC-45CE-B56D-5A77D4FAE610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8E65D1-5014-4B2D-911F-D7F910FC5203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8E65D1-5014-4B2D-911F-D7F910FC5203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8E65D1-5014-4B2D-911F-D7F910FC5203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8E65D1-5014-4B2D-911F-D7F910FC5203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD4CD2E-A662-49B9-BB42-13ADEC86EAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD4CD2E-A662-49B9-BB42-13ADEC86EAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD4CD2E-A662-49B9-BB42-13ADEC86EAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD4CD2E-A662-49B9-BB42-13ADEC86EAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
