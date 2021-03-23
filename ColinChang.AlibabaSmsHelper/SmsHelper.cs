@@ -6,6 +6,7 @@ using AlibabaCloud.SDK.Dysmsapi20170525.Models;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 
+
 namespace ColinChang.AlibabaSmsHelper
 {
     public class SmsHelper : ISmsHelper
@@ -53,8 +54,9 @@ namespace ColinChang.AlibabaSmsHelper
                 PhoneNumbers = string.Join(",", phoneNumbers),
                 SignName = _options.SignName,
                 TemplateCode = _options.TemplateCodes[templateCode],
-                TemplateParam = await JsonConvert.SerializeObjectAsync(variables)
+                TemplateParam = JsonConvert.SerializeObject(variables)
             };
+
             return await _client.SendSmsAsync(request);
         }
 
