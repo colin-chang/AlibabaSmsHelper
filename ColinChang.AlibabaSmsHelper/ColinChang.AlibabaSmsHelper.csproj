@@ -9,9 +9,8 @@
         <RepositoryType>Git</RepositoryType>
         <PackageTags>aliyun sms 短信 信息 短信服务 短信模板 签名</PackageTags>
         <Description>Alibaba SmsHelper for .Net Core, which can send notifications or verification code and query the send details.</Description>
-        <PackageReleaseNotes>use NewtonSoft.Net for serializing</PackageReleaseNotes>
-        <Version>1.0.1</Version>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageReleaseNotes>update denpendencies</PackageReleaseNotes>
+        <Version>1.0.2</Version>
         <PackageIcon>icon.png</PackageIcon>
         <PackageIconUrl>https://raw.githubusercontent.com/colin-chang/AlibabaSmsHelper/main/icon.png</PackageIconUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
@@ -27,16 +26,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Options.DataAnnotations" Version="5.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Options.DataAnnotations" Version="6.0.0" />
         
-        <PackageReference Include="AlibabaCloud.SDK.Dysmsapi20170525" Version="1.0.2" />
-        <PackageReference Include="AlibabaCloud.OpenApiClient" Version="0.0.11" />
+        <PackageReference Include="AlibabaCloud.SDK.Dysmsapi20170525" Version="2.0.9" />
+        <PackageReference Include="AlibabaCloud.OpenApiClient" Version="0.1.3" />
         <PackageReference Include="AlibabaCloud.TeaConsole" Version="0.1.0" />
         <PackageReference Include="AlibabaCloud.DarabonbaEnv" Version="0.1.0" />
-        <PackageReference Include="AlibabaCloud.TeaUtil" Version="0.1.11" />
+        <PackageReference Include="AlibabaCloud.TeaUtil" Version="0.1.13" />
         <PackageReference Include="AlibabaCloud.DarabonbaTime" Version="1.0.0" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
         <PackageReference Include="Tea" Version="1.0.11" />
